@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김영근 | 자기소개서</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+            background-color: #fff;
+            color: #222;
+            line-height: 1.5;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* 왼쪽 사이드바: 정보 밀도를 높임 */
+        .sidebar {
+            width: 300px;
+            background-color: #eef2f3;
+            padding: 30px;
+            border-right: 1px solid #ccc;
+        }
+
+        .main {
+            flex: 1;
+            padding: 40px 50px;
+        }
+
+        .profile-box {
+            width: 160px;
+            height: 160px;
+            background-color: #ddd;
+            margin-bottom: 15px;
+            border: 1px solid #999;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+
+        .major {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin: 25px 0 10px 0;
+            padding-bottom: 3px;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+        }
+
+        .info-group {
+            margin-bottom: 20px;
+        }
+
+        .info-label {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #666;
+            display: block;
+        }
+
+        .info-value {
+            font-size: 0.95rem;
+            margin-top: 2px;
+            word-break: break-all;
+        }
+
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 8px;
+        }
+
+        .tag {
+            background: #fff;
+            border: 1px solid #bbb;
+            padding: 2px 8px;
+            font-size: 0.8rem;
+            border-radius: 3px;
+        }
+
+        /* 본문 내용 스타일 */
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        .content-item {
+            margin-bottom: 25px;
+        }
+
+        .content-item h3 {
+            font-size: 1.15rem;
+            margin: 0 0 8px 0;
+            color: #111;
+        }
+
+        .content-item p {
+            font-size: 1rem;
+            margin: 0;
+            color: #444;
+            text-align: justify; /* 텍스트를 정돈되어 보이게 함 */
+        }
+
+        .content-item .date {
+            font-size: 0.85rem;
+            color: #888;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .insta-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0077cc;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid #ccc; }
+            .main { padding: 30px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 왼쪽: 인적 사항 및 스킬 -->
+    <aside class="sidebar">
+        <div class="profile-box">
+            <!-- 실제 사진이 있다면 <img src="사진경로"> -->
+        </div>
+        
+        <div class="info-group">
+            <span class="info-label">Contact</span>
+            <div class="info-value">010-3052-6936</div>
+            <div class="info-value">asdad@naver.com</div>
+            <a href="https://instagram.com/0guun" class="insta-link">Instagram: @0guun</a>
+        </div>
+
+        <h2 style="margin-top:40px;">Skills</h2>
+        <div class="info-group">
+            <div class="tag-container">
+                <span class="tag">재무제표 분석</span>
+                <span class="tag">기업가치평가</span>
+                <span class="tag">리스크 관리</span>
+                <span class="tag">MS Excel</span>
+                <span class="tag">Python (Data)</span>
+                <span class="tag">SQL</span>
+            </div>
+        </div>
+
+        <h2 style="margin-top:40px;">Education</h2>
+        <div class="info-group">
+            <div class="info-value"><strong>경영학과 (재무전공)</strong></div>
+            <div class="info-value" style="font-size: 0.9rem; color: #666;">대학교 3학년 재학</div>
+        </div>
+
+        <h2 style="margin-top:40px;">Interests</h2>
+        <div class="info-group">
+            <div class="info-value">📈 거시경제 트렌드</div>
+            <div class="info-value">☕ 카페 및 공간 탐방</div>
+            <div class="info-value">🏃‍♂️ 아침 러닝 및 체력관리</div>
+        </div>
+    </aside>
+
+    <!-- 오른쪽: 자기소개서 상세 내용 -->
+    <main class="main">
+        <h1>김영근</h1>
+        <p class="major">Business Administration · Finance Major</p>
+
+        <div class="content-section">
+            <h2>About Me</h2>
+            <div class="content-item">
+                <p>
+                    숫자가 가진 힘을 믿습니다. 단순히 계산을 수행하는 것을 넘어, 데이터 이면에 숨겨진 기업의 흐름과 리스크를 읽어내는 재무 전문가를 꿈꿉니다. 
+                    경영학을 전공하며 기업의 언어인 회계와 재무를 심도 있게 학습하였고, 이를 실제 시장 데이터와 결합하여 분석하는 과정에서 큰 성취감을 느낍니다. 
+                    꼼꼼한 데이터 관리 능력과 거시적인 관점을 동시에 갖춘 인재로 성장하고자 노력하고 있습니다.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Academic Projects</h2>
+            <div class="content-item">
+                <span class="date">2024.03 - 2024.06</span>
+                <h3>기업 재무 비율 분석 프로젝트</h3>
+                <p>
+                    특정 산업군(IT/제조업) 내 주요 기업들의 3개년 재무제표를 바탕으로 안정성, 수익성, 활동성 지표를 분석하였습니다. 
+                    단순 수치 비교를 넘어 업계 평균 대비 강점과 약점을 도출하고, 이를 바탕으로 기업의 단기적 재무 건전성을 평가하는 보고서를 작성하였습니다.
+                </p>
+            </div>
+            <div class="content-item">
+                <span class="date">2023.09 - 2023.12</span>
+                <h3>재무 데이터 시각화 스터디</h3>
+                <p>
+                    Excel 및 기초 Python 라이브러리를 활용하여 방대한 재무 데이터를 그래프와 차트로 변환하는 연습을 진행하였습니다. 
+                    데이터의 직관적인 시각화가 의사결정 과정에서 얼마나 중요한지를 학습하며, 효율적인 리포트 작성 역량을 키웠습니다.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Vision & Goal</h2>
+            <div class="content-item">
+                <h3>"데이터로 기업의 내일을 설계하다"</h3>
+                <p>
+                    저의 목표는 명확합니다. 기업이 직면한 재무적 불확실성을 최소화하고, 
+                    정확한 수치적 근거를 바탕으로 성장을 가속화할 수 있는 전략적 파트너가 되는 것입니다. 
+                    지속적인 학습을 통해 시장의 변화에 기민하게 대응하는 전문성을 유지하겠습니다.
+                </p>
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
